@@ -1,0 +1,85 @@
+* {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+}
+
+html {
+
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    min-width: 100%;
+}
+
+tr td:last-child {
+    text-align: left;
+}
+
+th {
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.712);
+    color:rgb(240, 240, 240);
+}
+
+a {
+    text-decoration:none;
+    margin-right: 10px; 
+}
+
+a:visited {
+    color:blue;
+}
+ 
+
+#html tr td:first-of-type, #html .monospace {
+    font-family: monospace;
+    background-color:rgba(255, 68, 0, 0.178);
+    font-size: 15px;
+}
+
+#css tr td:first-of-type, #css .monospace{
+    font-family: monospace;
+    background-color:rgba(0, 174, 255, 0.178);
+    font-size: 15px;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.taghead {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+}
+
+#html .taghead{
+    background-color: rgba(255, 68, 0, 0.842);
+    color: white;  
+}
+
+#css .taghead{
+    background-color: rgb(0, 174, 255);
+    color:white;
+}
